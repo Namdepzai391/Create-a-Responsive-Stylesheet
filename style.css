@@ -1,0 +1,66 @@
+body {
+  background-color: #dedede;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* =========================
+   MOBILE (DEFAULT)
+   ========================= */
+
+div {
+  display: block;
+  width: 100%;
+  margin: 5px auto;
+}
+
+div img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* =========================
+   TABLET ≥ 772px
+   ========================= */
+
+@media screen and (min-width: 772px) {
+
+  div {
+    display: inline-block;
+    width: 45%;
+  }
+
+  div img {
+    max-height: 30vh;
+    object-fit: cover;
+  }
+
+}
+
+
+/* =========================
+   LARGE ≥ 998px
+   ========================= */
+
+@media screen and (min-width: 998px) {
+
+  div {
+    width: 30%;
+  }
+
+}
